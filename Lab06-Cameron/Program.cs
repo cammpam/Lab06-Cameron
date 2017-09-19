@@ -10,6 +10,18 @@ namespace Lab06_Cameron
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Holiday effects on sales");
+
+            OnlineSales decStore = new OnlineSales();
+
+            CompanyWebsite decSite = new CompanyWebsite();
+
+            decSite.PayPerClickSales(decStore);
+
+            Console.WriteLine();
+
+            Console.Read();
+
         }
     }
 }

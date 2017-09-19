@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyWebsite.cs" />
+    <Compile Include="DowntownStore.cs" />
+    <Compile Include="HolidayPrep.cs" />
+    <Compile Include="InstoreSales.cs" />
+    <Compile Include="MyBusiness.cs" />
+    <Compile Include="OnlineSales.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocialSites.cs" />
+    <Compile Include="SummerEvent.cs" />
+    <Compile Include="UptownStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
